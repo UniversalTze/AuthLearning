@@ -8,7 +8,7 @@ This is **a learning repo, not a production system**. Code here prioritises clar
 
 ## Why Go for the backends
 
-I deliberately picked Go (over Spring Boot, Express, etc.) because Go's standard library forces auth mechanics to be visible. There's no framework setting cookies for me, no `@EnableWebSecurity` doing fifteen things behind an annotation. When I write `http.SetCookie(...)` I name every attribute. That's the point.
+I deliberately picked Gobecause Go's standard library forces auth mechanics to be visible. There's no framework setting cookies for me, no `@EnableWebSecurity` doing fifteen things behind an annotation. When I write `http.SetCookie(...)` I name every attribute. That's the point.
 
 This means:
 - **Default to `net/http` + `chi` for routing.** Don't reach for Gin, Echo, or Fiber unless I ask. Their conveniences hide things I'm trying to see.
