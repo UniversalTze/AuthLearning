@@ -9,7 +9,7 @@ A single React app (Vite + TypeScript) that talks to whichever backend I'm curre
 
 The interesting question this app exists to answer is: **"Am I authenticated, and how does the browser/server know?"**
 
-The frontend is backend-agnostic — it doesn't care what language or framework the backend is written in (currently Go), only what JSON it returns and what cookies it sets.
+The frontend is backend-agnostic — it doesn't care what language or framework the backend is written in (currently Go), only what JSON it returns and what cookies it sets. For the Frontend framework can you use a simple angular framework. 
 
 ## Backend selection
 
