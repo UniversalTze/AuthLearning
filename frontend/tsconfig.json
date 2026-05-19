@@ -2,7 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": "./src",
+    "rootDir": "./src", // tell TS that /frontend/src is root dir for this project. Typescript treats this as the entry point and expects to find index.js
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
